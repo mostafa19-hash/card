@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f5f0
+}
+
+.main {
+    /* border: 120px;
+    width: 350px;
+    background-color: rgb(85, 160, 135);
+    margin: 150px auto;
+    text-align: center;
+    padding: 30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    background-color: #58a58f;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    max-width: 320px;
+    margin: 120px auto;
+    transition: transform 0.3s ease;
+}
+
+.main:hover {
+    transform: translateY(-5px);
+}
+
+.main img {
+    /* width: 200px;
+    height: 200px;
+    border-radius: 50%; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.main p {
+    color: rgb(62, 55, 39);
+}
+
+.main a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main a:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+.main a:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+}
